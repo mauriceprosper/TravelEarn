@@ -161,3 +161,96 @@ body {
     text-align: center;
     background: #F8FAFC;
 }
+/* Features Grid */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 60px 10%;
+}
+
+.feature-item {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    background: #FFF7ED;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+/* Business Section */
+.business-section {
+    display: flex;
+    align-items: center;
+    padding: 80px 10%;
+    gap: 50px;
+}
+
+.highlight { color: #FF6B00; }
+
+.check-list {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.business-visual {
+    flex: 1;
+    background: #64748B;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Stats Section */
+.stats-section {
+    text-align: center;
+    padding: 80px 10%;
+    background: #fcfcfc;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.stat h3 {
+    font-size: 36px;
+    color: #FF6B00;
+}
+
+/* Footer */
+footer {
+    background: #fff;
+    padding: 60px 10% 20px;
+    border-top: 1px solid #eee;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 12px;
+    color: #94A3B8;
+    }
